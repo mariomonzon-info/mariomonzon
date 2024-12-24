@@ -1,1 +1,166 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
 
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+.main-header {
+    background-color: #00274d;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.main-header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.main-nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-nav ul li {
+    margin-left: 20px;
+}
+
+.main-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #00274d, #00509e);
+    color: #fff;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero .btn {
+    background-color: #ffd700;
+    color: #00274d;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.hero .btn:hover {
+    background-color: #cca300;
+}
+
+/* About Section */
+.about {
+    background-color: #f4f4f4;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.about img {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+
+/* Services Section */
+.services {
+    padding: 2rem 0;
+}
+
+.service-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.service-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    flex: 1;
+    min-width: 250px;
+    text-align: center;
+}
+
+.service-item h3 {
+    margin-bottom: 0.5rem;
+    color: #00274d;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #00509e;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact button {
+    background-color: #ffd700;
+    color: #00274d;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #cca300;
+}
+
+/* Footer */
+.main-footer {
+    background-color: #00274d;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.main-footer a {
+    color: #ffd700;
+    text-decoration: none;
+}
+
+.main-footer a:hover {
+    text-decoration: underline;
+}
